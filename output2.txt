@@ -1,0 +1,34 @@
+Hello
+                                  
+Program Terminated Abnormally.
+Error Code:3 Time Limit Exceeded.
+Toggle:0	TTL:3	TTC:4	LLC:1	TLL:1
+
+
+Program Terminated Abnormally.
+Error Code:4 Operation Code Error.
+Toggle:0	TTL:3	TTC:0	LLC:0	TLL:1
+
+
+Program Terminated Abnormally.
+Error Code:6 Invalid Page Fault.
+Toggle:0	TTL:3	TTC:2	LLC:0	TLL:1
+
+
+VIT
+                                    
+Toggle:0	TTL:4	TTC:4	LLC:1	TLL:1
+
+
+PUNE
+                                   
+Program Terminated Abnormally.
+Error Code:2 Line Limit Exceeded.
+Toggle:0	TTL:4	TTC:3	LLC:1	TLL:0
+
+
+Program Terminated Abnormally.
+Error Code:5 Operand Error.
+Toggle:0	TTL:4	TTC:2	LLC:0	TLL:1
+
+
