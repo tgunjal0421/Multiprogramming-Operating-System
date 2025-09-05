@@ -31,10 +31,11 @@ The project demonstrates how operating systems manage **job execution, memory, i
 ## 📂 Project Structure
 
 📦 MOS-Project
-┣ 📜 phase1/ # Phase 1 implementation
-┣ 📜 phase2/ # Phase 2 implementation
-┣ 📜 docs/ # Project documentation (Phase1 & Phase2 PDFs)
-┣ 📜 README.md
+- 📜 mos_p1.c/ # Phase 1 implementation
+- 📜 mos_p2.c/ # Phase 2 implementation
+- 📜 input.txt/ and output.txt/ # Input and output files for implementation
+- 📜 Project Details/ # Project documentation (Phase1 & Phase2 PDFs)
+- 📜 README.md
 
 ---
 
@@ -44,6 +45,7 @@ The project demonstrates how operating systems manage **job execution, memory, i
    ```bash
    git clone https://github.com/your-username/MOS-Project.git
    cd MOS-Project
+   ```
 2. Navigate to phase1/ or phase2/ and run the respective code.
 
 3. Provide input files in the required format ($AMJ, $DTA, $END control cards).
@@ -55,29 +57,30 @@ The project demonstrates how operating systems manage **job execution, memory, i
 ## 🧾 Example Input Format
 
 Given in input.txt file for phase 1 and input2.txt file for phase 2.
-Ref; 
+Ref;
+```bash
   $AMJ ...
   <Program Cards>
   $DTA
   <Data Cards>
   $END
-
+```
 ---
 
 ## 📜 Error Codes
 
-0 → No Error
-1 → Out of Data
-2 → Line Limit Exceeded
-3 → Time Limit Exceeded
-4 → Operation Code Error
-5 → Operand Error
-6 → Invalid Page Fault
+- 0 → No Error
+- 1 → Out of Data
+- 2 → Line Limit Exceeded
+- 3 → Time Limit Exceeded
+- 4 → Operation Code Error
+- 5 → Operand Error
+- 6 → Invalid Page Fault
 
 ---
 
 ## 🎯 Learning Outcomes
 
-Understand the internal working of a simple Operating System.
-Learn about interrupt handling, job scheduling, memory paging, and error management.
-Develop structured thinking for system-level programming.
+- Understand the internal working of a simple Operating System.
+- Learn about interrupt handling, job scheduling, memory paging, and error management.
+- Develop structured thinking for system-level programming.
